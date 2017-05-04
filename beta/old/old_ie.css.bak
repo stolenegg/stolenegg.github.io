@@ -1,0 +1,6 @@
+#selogo { background: none; }
+#loginbox { background: none; }
+
+#portfolio .section {
+background: none;
+}

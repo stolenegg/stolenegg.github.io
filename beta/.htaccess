@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Stolenegg BETA site"
+AuthUserFile "/home/stoleneg/.htpasswds/public_html/beta/passwd"
+require valid-user

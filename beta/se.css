@@ -1,0 +1,156 @@
+body {       
+	margin: 0px;
+	padding-right: 0px;
+	font-size: 70%;
+	background-color: #d9d9d9;
+}
+
+body, h1, h2, h3, h4, h5, h6,ol, ul, li, p, input, textarea, select {
+	font-family: "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+	color: #333;
+}
+
+#page { background: #ebebeb url(bg2.png) top left repeat-x;  }
+
+/* headings */
+.pageheading { display: none; }
+
+h2 { 
+	font-size: 16px; 
+	line-height: 20px;
+ 	font-weight: bold; 
+	color: #369;	
+	margin: 2em 0 2em 0;		
+}	
+
+h2 strong { color: black }
+
+#default h2 { width: 43em; }
+h3 {
+	font-size: 13px;
+ 	font-weight: bold; 
+	margin: 0.5em 0 0.2em 0;
+}
+
+
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+
+/* links */
+a img {border: none }
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #369;
+	}
+a:active {
+	color:red;
+	}
+a:hover {
+	color: #f39;
+	text-decoration: none;
+}
+
+.section {
+	margin-right: 1.3em;
+	padding-left: 1em;
+	border-left: 1px #ccc dotted;
+	padding-top: 1em;
+	border-top: 1px #ccc dotted;
+	width:220px;
+	min-height: 250px;
+	float:left;
+	margin-bottom: 2em;
+}
+
+.section2 {
+	margin-right: 1.3em;
+	padding-left: 1em;
+	border-left: 1px #ccc dotted;
+	padding-top: 1em;
+	border-top: 1px #ccc dotted;
+	width:440px;
+	min-height: 250px;
+	float:left;
+	margin-bottom: 2em;
+}
+
+#about .section { height: 300px; overflow: auto; }
+
+#portfolio .section { height: 300px; overflow: auto; }
+
+#default .section img {float: left; padding-right: 1em;}
+#about .section img {float: left; padding-right: 1em;}
+#contact .section img {float: left; padding-left: 50px;}
+
+.sectionheading { height: 5ex;}
+
+#selogo { height: 100px; padding: 0px 0px 0px 10px; background: url(logo_reflection.png) 10px 0px no-repeat; }
+#maincontent { margin-left: 180px; }
+
+#footer {
+height: 20px;
+padding: 10px;
+margin: 0px;
+clear: left;
+border-top: 1px #ccc dotted;
+text-align: right;
+color: #999;
+
+}
+
+.hbreak { border-bottom: 1px #ccc dotted; margin: 20px 0 20px 0;}
+
+#loginbox { 
+  padding: 25px 100px 25px 25px; 
+  float: right; 
+  color: white;
+  /* background: url(reflect.png) bottom right no-repeat; */
+  background: url(trans-line.png) bottom right no-repeat;
+  margin: 0px;
+  height: 20px;  /* add on padding to get total height! */  
+}
+
+#loginbox input { vertical-align: top; padding: 0px; }
+#loginbox input.logintxt { width: 12em; font-size: 11px; }
+
+
+.pink {
+color: #f39;
+}
+
+#portfolio #pf_webscreen {
+background: url(webscreen_bg.png) bottom left no-repeat;
+}
+#portfolio #pf_bo { 
+background: url(bo_bg.png) bottom left no-repeat;
+}
+#portfolio #pf_randomstorm { 
+background: url(randomstorm_bg.png) bottom right no-repeat;
+}
+#portfolio #pf_webw { 
+background: url(webw_bg.png) bottom left no-repeat;
+}
+
+
+.contactform th { text-align: left; }
+.contactform td { text-align: center; }
+.contactform textarea { font-size: 11px; width: 200px; }
+
+#sendbutton, #sendbutton a { display: block; text-indent: -5000px; background: url(send_buttons.gif) no-repeat; width: 77px; height: 22px; }
+#sendbutton a { background-position: 0px 0px;}
+#sendbutton { background-position: 0 -22px }
+#sendbutton a:hover {background-image: none;}
+
+#contact #sendbutton { position: relative; left: 60px; top: 1em; }
+
+#loginbutton, #loginbutton a { display: block; text-indent: -5000px; background: url(login_buttons.gif) no-repeat; width: 77px; height: 22px; }
+#loginbutton a { background-position: 0px 0px; }
+#loginbutton { background-position: 0 -22px; position: relative; top: -20px; left: 36em; }
+#loginbutton a:hover {background-image: none;}
+
+
