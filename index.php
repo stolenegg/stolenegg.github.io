@@ -62,10 +62,6 @@ pageHeader("default");
 	
 </div>
 
-<div style="display: none"><strong>stolenegg</strong> clients include:  
-FindABet, <a target="_blank" href="http://www.findabet.co.uk">Poker Casino Bingo and Sports Betting Reviews and Offers</a>
-RandomStorm, <a target="_blank" href="http://www.randomstorm.com">Vulnerability Management and PCI Compliance ASV Scanning</a>
-PlateCreator.com, <a target="_blank" href="http://www.platecreator.com">Show Plates and Custom Number Plates</a> ;)</div>
 <?
 pageFooter();
 ?>

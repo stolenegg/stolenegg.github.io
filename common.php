@@ -35,12 +35,6 @@ function pageHeader($pagename) {
 <script type="text/javascript" src="js/lightbox.js"></script>
 */ ?>
 
-<? if ($pagename=='contact') { ?>
-<script type="text/javascript" src="js/functionAddEvent.js"></script>
-<script type="text/javascript" src="js/contact.js"></script>
-<script type="text/javascript" src="js/xmlHttp.js"></script>
-<? } ?>
- 
 <script type="text/javascript">
 <!--
 function clientLogin() {
