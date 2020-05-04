@@ -1,0 +1,180 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    font-size: 15px;
+}
+
+/* fonts */
+/*
+body {
+  font-family: RetinaBook, Helvetica, Arial, sans-serif;
+}
+strong {
+  font-family: RetinaBold;
+}
+@font-face {
+  font-family: RetinaBook;
+  src: url('../fonts/Retina-Book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: RetinaBold;
+  src: url('../fonts/Retina-Bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/* layout */
+.grid {
+  display: grid;
+  grid-template-rows: 80px 1fr auto;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.width-limit {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+hr
+{
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}
+
+/* logo */
+.logo img {
+  width: 180px;
+  margin-top: 1em;
+  margin: 1em auto;
+  display: block;;
+}
+
+/* colours */
+a {
+  color: #369;
+}
+a:hover {
+  color: #e39;
+}
+
+.main-container {
+
+}
+.main-graphic img {
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+.home-box {
+  font-size: 90%;
+  width: 100%;
+}
+
+.links {
+  list-style-type: none;
+  margin-top: 3em;
+  height: 50px;
+}
+.links li {
+  float: left;
+  min-width: 120px;
+}
+.links .linkedin svg {
+  width: 72px;
+  fill: #369;
+  margin-top: 2px;
+}
+.links .linkedin svg:hover {
+  fill: #e39;
+}
+
+.links .github svg {
+  width: 72px;
+  height: 20px;
+  fill: #369;
+}
+.links .github svg:hover {
+  fill: #e39;
+}
+
+
+/* footer */
+footer {
+  color: white;
+  background-color: #369;
+  border-top: 8px solid #e39;
+  font-size: 75%;
+  width: 100%;
+  bottom: 0;
+}
+footer .deets {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  min-width: 200px;
+}
+
+footer ul li {
+  float: left;
+  padding-right: 8px;
+}
+
+.office li:first-child {
+  float: none;
+}
+.office li:nth-child(n+3) {
+  border-left: 1px solid #e39;
+  padding-left: 8px;
+}
+.contact li:first-child {
+  float: none;
+}
+.contact li:nth-child(n+3) {
+  border-left: 1px solid #e39;
+  padding-left: 8px;
+}
+footer .copyright {
+  display: none;
+  font-size: 70%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* media queries */
+@media only screen and (min-width:639px) {
+  body {
+    font-size: 16px;
+  }
+  .logo img {
+    width: 200px;
+    margin: 1em 0;
+  }
+  .main-graphic {
+    float: right;
+  }
+  .main-graphic img {
+    height: 300px;
+    margin-top: -3em;
+    margin-right: 3em;
+  }
+  .main-text {
+    margin-top: 3em;
+  }
+}
