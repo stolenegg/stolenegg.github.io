@@ -65,9 +65,10 @@ a:hover {
   color: #e39;
 }
 
-.main-container {
-
+.intro h1 {
+  display: none;
 }
+
 .main-graphic img {
   height: 200px;
   margin: auto;
