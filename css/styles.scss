@@ -1,6 +1,15 @@
+---
+---
+
+$stolenegg-blue: #336699;
+$stolenegg-pink: #ee3399;
+$light-grey: #eeeeee;
+$dark-grey: #333333;
+$width-limit: 1180px;
+
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #333;
+    color: $dark-grey;
     margin: 0;
     font-size: 15px;
 }
@@ -14,16 +23,16 @@ body {
 }
 
 .width-limit {
-  max-width: 1180px;
+  max-width: $width-limit;
   margin: 0 auto;
   padding: 0 10px;
 }
 
 hr
 {
-    background-color: #eee;
+    background-color: $light-grey;
     border: 0 none;
-    color: #eee;
+    color: $light-grey;
     height: 1px;
 }
 
@@ -37,10 +46,10 @@ hr
 
 /* colours */
 a {
-  color: #369;
+  color: $stolenegg-blue;
 }
 a:hover {
-  color: #e39;
+  color: $stolenegg-pink;
 }
 
 .intro h1 {
@@ -69,28 +78,28 @@ a:hover {
 }
 .links .linkedin svg {
   width: 72px;
-  fill: #369;
+  fill: $stolenegg-blue;
   margin-top: 2px;
 }
 .links .linkedin svg:hover {
-  fill: #e39;
+  fill: $stolenegg-pink;
 }
 
 .links .github svg {
   width: 72px;
   height: 20px;
-  fill: #369;
+  fill: $stolenegg-blue;
 }
 .links .github svg:hover {
-  fill: #e39;
+  fill: $stolenegg-pink;
 }
 
 
 /* footer */
 footer {
   color: white;
-  background-color: #369;
-  border-top: 8px solid #e39;
+  background-color: $stolenegg-blue;
+  border-top: 8px solid $stolenegg-pink;
   font-size: 75%;
   width: 100%;
   bottom: 0;
@@ -119,14 +128,14 @@ footer ul li {
   float: none;
 }
 .office li:nth-child(n+3) {
-  border-left: 1px solid #e39;
+  border-left: 1px solid $stolenegg-pink;
   padding-left: 8px;
 }
 .contact li:first-child {
   float: none;
 }
 .contact li:nth-child(n+3) {
-  border-left: 1px solid #e39;
+  border-left: 1px solid $stolenegg-pink;
   padding-left: 8px;
 }
 footer .copyright {
