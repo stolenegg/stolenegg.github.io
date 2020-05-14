@@ -20,3 +20,7 @@ docker run --rm \
 cd _site
 python3 -m http.server 1234
 ```
+
+#### Credits
+
+Footer icons courtesy of [Icomoon](https://icomoon.io/)
