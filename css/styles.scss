@@ -103,6 +103,7 @@ footer {
   font-size: 75%;
   width: 100%;
   bottom: 0;
+  line-height: 1.5em;
 }
 footer .deets {
   display: flex;
@@ -143,6 +144,17 @@ footer .copyright {
   font-size: 70%;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  padding: 0 0.5em 0.2em 0;
+  vertical-align: middle;
 }
 
 /* media queries */
