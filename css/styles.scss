@@ -4,6 +4,7 @@
 $stolenegg-blue: #336699;
 $stolenegg-pink: #ee3399;
 $light-grey: #eeeeee;
+$mid-grey: #666666;
 $dark-grey: #333333;
 $width-limit: 1180px;
 
@@ -53,13 +54,8 @@ a:hover {
 }
 
 .intro h1 {
-  display: none;
-}
-
-.main-graphic img {
-  height: 200px;
-  margin: auto;
-  display: block;
+  font-size: 120%;
+  font-weight: normal;
 }
 
 .home-box {
@@ -67,6 +63,38 @@ a:hover {
   width: 100%;
 }
 
+/* service boxes */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service {
+  width: 250px;
+  border: 1px solid $light-grey;
+
+  border-radius: 10px;
+  margin-top: 1em;
+  background-color: $light-grey
+}
+.service .img-wrap {
+  background-color: white;
+}
+.service img {
+  margin: auto;
+  display: block;
+}
+.service h3 {
+  color: $stolenegg-pink;
+  margin: 1em;
+}
+.service p {
+  color: $mid-grey;
+  font-size: 90%;
+  margin: 1em;
+}
+
+/* external links */
 .links {
   list-style-type: none;
   margin-top: 3em;
@@ -172,18 +200,13 @@ footer .copyright {
     width: 200px;
     margin: 1em 0;
   }
-  .main-graphic {
-    float: right;
-  }
-  .main-graphic img {
-    height: 300px;
-    margin-top: -3em;
-    margin-right: 3em;
-  }
-  .main-text {
-    margin-top: 3em;
-  }
   .width-limit {
     padding: 0 20px;
+  }
+  .services {
+    justify-content: space-around;
+  }
+  .service {
+    width: 220px;
   }
 }
