@@ -40,6 +40,7 @@ hr
 /* logo */
 .logo img {
   width: 180px;
+  height: 45px;
   margin-top: 1em;
   margin: 1em auto;
   display: block;;
@@ -81,13 +82,16 @@ a:hover {
   background-color: white;
   vertical-align: middle;
   display: table-cell;
-  padding: 0.5em;
+  padding: 10px;
   border-radius: 10px 10px 0 0;
+  height: 175px;
+  width: 265px;
 }
 .service img {
   margin: auto;
   display: block;
-  max-width:100%;
+  width:100%;
+  height: auto;
 }
 .service h3 {
   color: $stolenegg-pink;
@@ -204,6 +208,7 @@ footer .copyright {
   }
   .logo img {
     width: 200px;
+    height: 50px;
     margin: 1em 0;
   }
   .width-limit {
@@ -214,5 +219,9 @@ footer .copyright {
   }
   .service {
     width: 225px;
+  }
+  .service .img-wrap {
+    height: 140px;
+    width: 205px;
   }
 }
