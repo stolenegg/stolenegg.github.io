@@ -1,8 +1,8 @@
 ---
 ---
 
-$stolenegg-blue: #336699;
-$stolenegg-pink: #ee3399;
+$stolenegg-blue: #3a629f;
+$stolenegg-pink: #ee1997;
 $light-grey: #eeeeee;
 $mid-grey: #666666;
 $dark-grey: #333333;
@@ -72,17 +72,21 @@ a:hover {
 .service {
   width: 250px;
   border: 1px solid $light-grey;
-
   border-radius: 10px;
   margin-top: 1em;
   background-color: $light-grey
 }
 .service .img-wrap {
   background-color: white;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 0.5em;
+  border-radius: 10px 10px 0 0;
 }
 .service img {
   margin: auto;
   display: block;
+  max-width:100%;
 }
 .service h3 {
   color: $stolenegg-pink;
