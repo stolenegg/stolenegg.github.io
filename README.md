@@ -23,5 +23,5 @@ python3 -m http.server 1234
 
 ### Credits / thanks
 
-* Main illustration: [Irina Strelnikova](https://www.shutterstock.com/g/Irina+Strelnikova)
+* Original illustrations: [Irina Strelnikova / Shutterstock](https://www.shutterstock.com/g/Irina+Strelnikova)
 * Footer icons: [Icomoon](https://icomoon.io/)
