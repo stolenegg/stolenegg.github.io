@@ -25,4 +25,3 @@ python3 -m http.server 1234
 
 * Original illustrations: [Irina Strelnikova / Shutterstock](https://www.shutterstock.com/g/Irina+Strelnikova)
 * Footer icons: [Icomoon](https://icomoon.io/)
-* Norwegian Blue: [RomanYa / Shutterstock](https://www.shutterstock.com/g/RomanYa)
