@@ -15,6 +15,13 @@
   </script>
   <!-- End Google Analytics -->
 
+  <script>
+    function reviveParrot() {
+      document.getElementById('polly').classList.remove('show');
+      document.getElementById('main').classList.remove('overlay');
+      return false;
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Stolenegg Ltd. is a software design and development consultancy based in Leeds, UK." />
   <meta charset="utf-8" />
@@ -29,7 +36,23 @@
   <!-- inline svg icons -->
   {% include icons.svg %}
 
-  <div class="grid">
+  <div class="ceased-to-be" id="polly">
+    <div class="parrot">
+      <img src="./images/parrot.svg"
+       alt="Norwegian Blue, just resting"/>
+    </div>
+    <div class="ceased-to-be-text">
+      <p>Stolenegg Ltd ceased to be on 26th February 2021.</p>
+      <p>
+        You can still get in touch:
+        <a target="_blank" rel="noopener noreferrer" href="mailto:p&#105;ningforthefjords&#64;&#115;&#116;&#111;&#108;e&#110;&#101;&#103;&#103;&#46;c&#111;&#109;">p&#105;ningforthefjords&#64;&#115;&#116;&#111;&#108;&#101;&#110;eg&#103;&#46;&#99;&#111;&#109;</a>
+      </p>
+      <p>or</p>
+      <a href="#" onclick="return reviveParrot();">continue to the site &raquo;</a>
+    </div>
+  </div>
+
+  <div class="grid" id="main">
 
     <header>
       <div class="width-limit">
